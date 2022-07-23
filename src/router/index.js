@@ -19,6 +19,16 @@ const router = createRouter({
       name: 'pengantin',
       component: () => import('../views/Pengantin.vue')
     },
+    {
+      path: '/',
+      name: 'acara',
+      component: () => import('../views/Acara.vue')
+    },
+    {
+      path: '/',
+      name: 'lokasi',
+      component: () => import('../views/Lokasi.vue')
+    },
   ]
 })
 
